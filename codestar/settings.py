@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://codestar-ci-frederikka-2123ee5624e3.herokuapp.com/", "localhost", 'https://8000-frederikka-djangoblog-jbbfys4c9x4.ws-eu104.gitpod.io/']
+ALLOWED_HOSTS = ['codestar-ci-frederikka-2123ee5624e3.herokuapp.com', "localhost", 'https://8000-frederikka-djangoblog-jbbfys4c9x4.ws-eu104.gitpod.io/']
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
